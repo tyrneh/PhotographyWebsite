@@ -1,8 +1,32 @@
-.nav-margin {
-  margin-left: 20%;
+/* make title and img larger when navbar collapses */
+.collapsed-title {
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.collapsed-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+@media (max-width: 767.98px) {
+  .collapsed-img {
+    width: 80px;
+    height: auto;
+    aspect-ratio: 367/245;
+  }
 }
 
-.cover {
-  width: 45%;
-  margin: 0.5rem 0.5rem;
+/* remove border around collapsed navbar toggler */
+.navbar-toggler {
+  border: none;
+}
+
+/* center navbar text when it collapses */
+.navbar-collapse {
+  text-align: center;
 }
