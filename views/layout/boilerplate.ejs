@@ -19,15 +19,17 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="icon" href="favicon/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="icon" href="/favicon/favicon.png" type="image/x-icon" />
   </head>
 
   <body>
-    <main class="w-100 h-100 mx-auto p-3 mt-md-5">
+    <main class="w-100 h-100 mx-auto p-3 mt-md-3">
       <div class="row">
         <!-- navbar -->
-        <%- include('partials/navbar.ejs') %> <%- body %>
+        <%- include('partials/navbar.ejs') %>
+        <!-- body -->
+        <%- body %>
       </div>
     </main>
 

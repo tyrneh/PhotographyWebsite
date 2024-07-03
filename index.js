@@ -23,6 +23,10 @@ app.get('/', (req, res) => {
   res.render('home.ejs');
 });
 
+app.get('/locations/seasia', (req, res) => {
+  res.render('locations/seAsia/seAsia.ejs');
+});
+
 // start server
 app.listen(3000, () => {
   console.log('Listening on port 3000');

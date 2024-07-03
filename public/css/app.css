@@ -39,7 +39,7 @@ body {
 /* center text in title */
 .home-title h2 {
   text-align: center;
-  padding-bottom: 1em;
+  padding-bottom: 0.7em;
   border-bottom: solid black;
   /* font-style: italic; */
 }
