@@ -1,3 +1,8 @@
+body {
+  font-family: 'EB Garamond', 'Gill Sans', 'Gill Sans MT', Calibri,
+    'Trebuchet MS', sans-serif;
+}
+
 /* make title and img larger when navbar collapses */
 .collapsed-title {
   font-size: 2em;
@@ -29,4 +34,13 @@
 /* center navbar text when it collapses */
 .navbar-collapse {
   text-align: center;
+}
+
+/* center text in title */
+.home-title p {
+  font-size: larger;
+  text-align: center;
+  padding-bottom: 1em;
+  border-bottom: solid black;
+  /* font-style: italic; */
 }
