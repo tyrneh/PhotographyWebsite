@@ -48,3 +48,8 @@ body {
   text-decoration: none;
   color: black;
 }
+
+/* styling about page */
+.container-about {
+  font-family: Arial, Helvetica, sans-serif;
+}

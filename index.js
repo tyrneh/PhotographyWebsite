@@ -19,16 +19,22 @@ app.engine('ejs', ejsMate);
 app.use(favicon(__dirname + '/public/favicon/favicon.png'));
 
 //--------------- ROUTES -------------------- //
+// Home
 app.get('/', (req, res) => {
   res.render('home.ejs');
 });
 
+// locations
 app.get('/locations/seasia', (req, res) => {
   res.render('locations/seAsia.ejs');
 });
-
 app.get('/locations/japan', (req, res) => {
   res.render('locations/japan.ejs');
+});
+
+// about
+app.get('/about', (req, res) => {
+  res.render('about.ejs');
 });
 
 // start server
