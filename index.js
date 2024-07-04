@@ -24,7 +24,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/locations/seasia', (req, res) => {
-  res.render('locations/seAsia/seAsia.ejs');
+  res.render('locations/seAsia.ejs');
+});
+
+app.get('/locations/japan', (req, res) => {
+  res.render('locations/japan.ejs');
 });
 
 // start server

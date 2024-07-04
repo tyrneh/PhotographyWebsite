@@ -1,6 +1,6 @@
 body {
-  font-family: 'EB Garamond', 'Gill Sans', 'Gill Sans MT', Calibri,
-    'Trebuchet MS', sans-serif;
+  font-family: 'Beiruti', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 /* make title and img larger when navbar collapses */
@@ -41,5 +41,10 @@ body {
   text-align: center;
   padding-bottom: 0.7em;
   border-bottom: solid black;
-  /* font-style: italic; */
+}
+
+/* remove url link text decoration from title */
+.home-title a {
+  text-decoration: none;
+  color: black;
 }
