@@ -1,0 +1,55 @@
+body {
+  font-family: 'Beiruti', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* make title and img larger when navbar collapses */
+.collapsed-title {
+  font-size: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.collapsed-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+@media (max-width: 767.98px) {
+  .collapsed-img {
+    width: 80px;
+    height: auto;
+    aspect-ratio: 367/245;
+  }
+}
+
+/* remove border around collapsed navbar toggler */
+.navbar-toggler {
+  border: none;
+}
+
+/* center navbar text when it collapses */
+.navbar-collapse {
+  text-align: center;
+}
+
+/* center text in title */
+.home-title h2 {
+  text-align: center;
+  padding-bottom: 0.7em;
+  border-bottom: solid black;
+}
+
+/* remove url link text decoration from title */
+.home-title a {
+  text-decoration: none;
+  color: black;
+}
+
+/* styling about page */
+.container-about {
+  font-family: Arial, Helvetica, sans-serif;
+}
