@@ -25,11 +25,32 @@ app.get('/', (req, res) => {
 });
 
 // locations
+app.get('/locations/uk', (req, res) => {
+  res.render('locations/unitedKingdom.ejs');
+});
 app.get('/locations/seasia', (req, res) => {
   res.render('locations/seAsia.ejs');
 });
+app.get('/locations/bangkok', (req, res) => {
+  res.render('locations/bangkok.ejs');
+});
 app.get('/locations/japan', (req, res) => {
   res.render('locations/japan.ejs');
+});
+app.get('/locations/taipei', (req, res) => {
+  res.render('locations/taipei.ejs');
+});
+app.get('/locations/taitung', (req, res) => {
+  res.render('locations/taitung.ejs');
+});
+app.get('/locations/shanghai', (req, res) => {
+  res.render('locations/shanghai.ejs');
+});
+app.get('/locations/lisbon', (req, res) => {
+  res.render('locations/lisbon.ejs');
+});
+app.get('/locations/europe', (req, res) => {
+  res.render('locations/europe.ejs');
 });
 
 // about
